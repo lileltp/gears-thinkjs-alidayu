@@ -1,0 +1,22 @@
+{
+  "name": "gears_thinkjs_alidayu",
+  "version": "1.0.0",
+  "description": "阿里大鱼thinkjs组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gears-software.com",
+    "gears",
+    "thinkjs",
+    "alidayu"
+  ],
+  "author": "lileltp@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "think-cors": "^1.0.8",
+    "thinkjs": "^2.2.17",
+    "topsdk": "^1.0.10"
+  }
+}
