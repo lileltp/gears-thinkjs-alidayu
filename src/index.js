@@ -58,7 +58,7 @@ async function verifyCode(telephone, code) {
     });
     if (!think.isEmpty(code) && vCode === code) {
         result = true;
-        think.cache('sms_' + telephone, null);// 使用过后删除
+        think.cache('sms_' + telephone, null,{type: config.cacheType});// 使用过后删除
     }
     return result
 }

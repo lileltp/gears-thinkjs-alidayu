@@ -1,6 +1,6 @@
 {
   "name": "gears_ts_alidayu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "阿里大于thinkjs组件,发送短信息",
   "main": "lib/index.js",
   "scripts": {
